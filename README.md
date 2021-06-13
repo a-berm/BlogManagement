@@ -13,6 +13,8 @@ This web api handles operation on blog posts.
 ## Guidelines
 * When the application is started, some users and posts are automatically loaded.
 * BDD Tests have been generated using SpecFlow.
+* Exceptions at the controller level, are handled using an exception filter.
+* Depending on the route, input data is controlled manually or automatically.
 
 ## Getting Started
 
