@@ -1,0 +1,16 @@
+[
+  {
+    "UserId": 2,
+    "FirstName": "Paul",
+    "LastName": "Dupont",
+    "NickName": "pdup",
+    "Email": "dupont.pau@gmail.com"
+  },
+  {
+    "UserId": 3,
+    "FirstName": "Sarah",
+    "LastName": "mahi",
+    "NickName": "smah",
+    "Email": "mahi.sarah@gmail.com"
+  }
+]

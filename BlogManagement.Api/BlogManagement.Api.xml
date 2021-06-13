@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BlogManagement.Api</name>
+    </assembly>
+    <members>
+        <member name="M:BlogManagement.Api.Controllers.PostsController.ListPosts">
+            <summary>
+            Lists all approuved posts.
+            </summary>
+        </member>
+        <member name="M:BlogManagement.Api.Controllers.PostsController.GetPost(System.Int64)">
+            <summary>
+            Get a post by id.
+            </summary>
+        </member>
+        <member name="M:BlogManagement.Api.Controllers.PostsController.CreatePost(BlogManagement.Domain.Dto.PostInputDto)">
+            <summary>
+            Creates a post.
+            </summary>
+        </member>
+        <member name="M:BlogManagement.Api.Controllers.PostsController.ReviewPosts(System.Int64)">
+            <summary>
+            Reviews all posts.
+            </summary>
+        </member>
+    </members>
+</doc>
