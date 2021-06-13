@@ -25,4 +25,4 @@ SpecFlow For Visual Studio extension should be installed.
 ## Built With
 * C#, ASP.net Core (2.1), Swagger.
 * xUnit with SpecFlow and NSubstitute.
-
+* Visual Studio 2017.
