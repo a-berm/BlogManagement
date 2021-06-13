@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BlogManagement.Persistance.Contract
+namespace BlogManagement.Persistance.Abstractions
 {
     public interface IPostRepository
     {

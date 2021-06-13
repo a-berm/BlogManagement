@@ -1,27 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using AutoMapper;
 using BlogManagement.Business;
-using BlogManagement.Business.Contract;
+using BlogManagement.Business.Abstractions;
+using BlogManagement.Persistance.Abstractions;
 using BlogManagement.Domain.ExceptionFilter;
 using BlogManagement.Persistance;
-using BlogManagement.Persistance.Contract;
 using BlogManagement.Persistance.DataBase;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
-using Newtonsoft.Json.Converters;
 
 namespace BlogManagement.Api
 {

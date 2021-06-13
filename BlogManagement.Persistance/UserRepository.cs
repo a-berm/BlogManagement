@@ -1,5 +1,5 @@
-﻿using BlogManagement.Domain.Entities;
-using BlogManagement.Persistance.Contract;
+﻿using BlogManagement.Domain.Abstractions;
+using BlogManagement.Persistance.Abstractions;
 using BlogManagement.Persistance.DataBase;
 using System;
 using System.Linq;

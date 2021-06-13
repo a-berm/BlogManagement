@@ -1,7 +1,7 @@
-﻿using BlogManagement.Domain.Entities;
+﻿using BlogManagement.Domain.Abstractions;
 using System.Threading.Tasks;
 
-namespace BlogManagement.Persistance.Contract
+namespace BlogManagement.Persistance.Abstractions
 {
     public interface IUserRepository
     {

@@ -1,8 +1,8 @@
 ﻿using BlogManagement.Business;
-using BlogManagement.Business.Contract;
+using BlogManagement.Business.Abstractions;
 using BlogManagement.Domain.Dto;
 using BlogManagement.Domain.Entities;
-using BlogManagement.Persistance.Contract;
+using BlogManagement.Persistance.Abstractions;
 using BlogManagement.Persistance.Utils;
 using NSubstitute;
 using System.Collections.Generic;

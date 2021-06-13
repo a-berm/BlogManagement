@@ -1,13 +1,12 @@
 ﻿using BlogManagement.Business;
-using BlogManagement.Business.Contract;
+using BlogManagement.Business.Abstractions;
 using BlogManagement.Domain.Entities;
 using BlogManagement.Domain.Enums;
 using BlogManagement.Domain.Exceptions;
-using BlogManagement.Persistance.Contract;
+using BlogManagement.Persistance.Abstractions;
 using BlogManagement.Persistance.Utils;
 using NSubstitute;
 using NSubstitute.ReturnsExtensions;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

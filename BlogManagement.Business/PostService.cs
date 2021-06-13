@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BlogManagement.Business.Contract;
+using BlogManagement.Business.Abstractions;
 using BlogManagement.Domain.Dto;
 using BlogManagement.Domain.Entities;
 using BlogManagement.Domain.Enums;
 using BlogManagement.Domain.Exceptions;
-using BlogManagement.Persistance.Contract;
+using BlogManagement.Persistance.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

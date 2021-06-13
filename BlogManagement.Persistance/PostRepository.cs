@@ -1,6 +1,6 @@
 ﻿using BlogManagement.Domain.Entities;
 using BlogManagement.Domain.Enums;
-using BlogManagement.Persistance.Contract;
+using BlogManagement.Persistance.Abstractions;
 using BlogManagement.Persistance.DataBase;
 using BlogManagement.Persistance.Utils;
 using System;

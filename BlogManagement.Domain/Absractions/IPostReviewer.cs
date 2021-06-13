@@ -1,4 +1,6 @@
-﻿namespace BlogManagement.Domain.Entities
+﻿using BlogManagement.Domain.Entities;
+
+namespace BlogManagement.Domain.Abstractions
 {
     public interface IPostReviewer
     {

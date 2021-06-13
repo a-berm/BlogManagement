@@ -1,4 +1,5 @@
-﻿using BlogManagement.Domain.Entities;
+﻿using BlogManagement.Domain.Abstractions;
+using BlogManagement.Domain.Entities;
 using System.Collections.Generic;
 
 namespace BlogManagement.Persistance.DataBase

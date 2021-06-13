@@ -1,7 +1,5 @@
-﻿using BlogManagement.Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using BlogManagement.Domain.Abstractions;
+using BlogManagement.Domain.Enums;
 
 namespace BlogManagement.Domain.Entities
 {

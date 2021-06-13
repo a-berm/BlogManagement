@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using BlogManagement.Domain.Dto;
 using BlogManagement.Domain.Entities;
 
-namespace BlogManagement.Business.Contract
+namespace BlogManagement.Business.Abstractions
 {
     public interface IPostService
     {
