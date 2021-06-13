@@ -12,7 +12,7 @@ This web api handles operation on blog posts.
 
 ## Guidelines
 * When the application is started, some users and posts are automatically loaded.
-* BDD Tests have been created using SpecFlow.
+* BDD Tests have been generated using SpecFlow.
 
 ## Getting Started
 
