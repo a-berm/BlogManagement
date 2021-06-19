@@ -44,11 +44,11 @@ namespace BlogManagement.Tests.Steps
             Assert.Equal(nbrOfPostsInDb, postsInDb.Count);
         }
 
-        [Given(@"only (.*) of them are approuved")]
-        public void GivenOnlyOfThemAreApprouved(int nbrOfApprouvedPostsInDb)
+        [Given(@"only (.*) of them are approved")]
+        public void GivenOnlyOfThemAreApproved(int nbrOfApprovedPostsInDb)
         {
-            var approuvedPosts = postsInDb.Where(p => p.Status == PostStatus.APPROUVED).ToList();
-            Assert.Equal(nbrOfApprouvedPostsInDb, approuvedPosts.Count);
+            var approvedPosts = postsInDb.Where(p => p.Status == PostStatus.APPROVED).ToList();
+            Assert.Equal(nbrOfApprovedPostsInDb, approvedPosts.Count);
         }
 
         [When(@"the user wants to retrieve all the posts")]
@@ -60,9 +60,9 @@ namespace BlogManagement.Tests.Steps
         }
 
         [Then(@"the application should return only (.*) posts")]
-        public void ThenTheApplicationShouldReturnOnlyApprouvedPosts(int nbrOfApprouvedPosts)
+        public void ThenTheApplicationShouldReturnOnlyApprovedPosts(int nbrOfApprovedPosts)
         {
-            Assert.Equal(nbrOfApprouvedPosts, result.Count);
+            Assert.Equal(nbrOfApprovedPosts, result.Count);
         }
 
         [When(@"the user wants to retrieve a post whose id equals to (.*)")]
@@ -75,10 +75,10 @@ namespace BlogManagement.Tests.Steps
             result = posts.ToList();
         }
 
-        [When(@"this post is approuved")]
-        public void WhenThisPostIsApprouved()
+        [When(@"this post is approved")]
+        public void WhenThisPostIsApproved()
         {
-            Assert.True(specificPost.Status == PostStatus.APPROUVED);
+            Assert.True(specificPost.Status == PostStatus.APPROVED);
         }
 
         [Then(@"the application should return this post")]

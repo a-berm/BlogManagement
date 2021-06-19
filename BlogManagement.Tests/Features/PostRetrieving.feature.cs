@@ -80,14 +80,14 @@ namespace BlogManagement.Tests.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Retreive all approuved posts")]
+        [Xunit.SkippableFactAttribute(DisplayName="Retreive all approved posts")]
         [Xunit.TraitAttribute("FeatureTitle", "PostRetreiving")]
-        [Xunit.TraitAttribute("Description", "Retreive all approuved posts")]
-        public virtual void RetreiveAllApprouvedPosts()
+        [Xunit.TraitAttribute("Description", "Retreive all approved posts")]
+        public virtual void RetreiveAllApprovedPosts()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retreive all approuved posts", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Retreive all approved posts", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 4
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -112,7 +112,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("There are 4 posts in the database", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
- testRunner.And("only 2 of them are approuved", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("only 2 of them are approved", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 7
  testRunner.When("the user wants to retrieve all the posts", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -156,13 +156,13 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("There are 4 posts in the database", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 12
- testRunner.And("only 2 of them are approuved", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("only 2 of them are approved", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 13
  testRunner.When("the user wants to retrieve a post whose id equals to 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 14
- testRunner.And("this post is approuved", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("this post is approved", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 15
  testRunner.Then("the application should return this post", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

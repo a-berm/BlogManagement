@@ -24,7 +24,7 @@ namespace BlogManagement.Api.Controllers
         }
 
         /// <summary>
-        /// Lists all approuved posts.
+        /// Lists all approved posts.
         /// </summary>
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<PostDto>), StatusCodes.Status200OK)]
@@ -41,7 +41,7 @@ namespace BlogManagement.Api.Controllers
         }
 
         /// <summary>
-        /// Gets an approuved post by id.
+        /// Gets an approved post by id.
         /// </summary>
         /// <param name="postId">The post id to search</param>
         [HttpGet("{postId:long}")]

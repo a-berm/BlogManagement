@@ -10,7 +10,7 @@ namespace BlogManagement.Domain.Entities
         public override Post CreatePost(string title, string content)
         {
             var post = base.CreatePost(title, content);
-            post.Status = PostStatus.APPROUVED;
+            post.Status = PostStatus.APPROVED;
             return post;
         }
 
@@ -19,7 +19,7 @@ namespace BlogManagement.Domain.Entities
             var content = post.Content;
 
             if (content.Length <= MAX_CHARACTERS)
-                post.Status = PostStatus.APPROUVED;
+                post.Status = PostStatus.APPROVED;
             else
                 post.Status = PostStatus.REJECTED;
         }

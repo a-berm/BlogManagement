@@ -9,7 +9,7 @@ Scenario: Post creation by a regular user
 Scenario: Post creation by an administrator
 	Given An administrator who wants to create a post
 	When a post is created by this administrator
-	Then the post status is APPROUVED
+	Then the post status is APPROVED
 
 Scenario: Post creation by an existing user
 	Given An existing user who wants to create a post

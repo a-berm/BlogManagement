@@ -28,7 +28,7 @@ namespace BlogManagement.Business
             try
             {
                 var posts = await _postRepository.GetPostsAsync(id);
-                var approuvedPosts = posts.Where(p => p.Status == PostStatus.APPROUVED);
+                var approuvedPosts = posts.Where(p => p.Status == PostStatus.APPROVED);
                 var postsDto = Mapper.Map<IEnumerable<PostDto>>(approuvedPosts);
                 return postsDto;
             }

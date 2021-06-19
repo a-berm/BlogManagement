@@ -4,7 +4,7 @@
 Scenario: Post review rules
 	Given An admnistrator who wants to review a post
 	When the maximun number of characters of the content is lower than 400
-	Then the post is APPROUVED
+	Then the post is APPROVED
 	When the maximun number of characters of the content is greater than 400
 	Then the post is REJECTED
 
