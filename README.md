@@ -6,8 +6,8 @@ A simple web api that allows users to perform operations on a blog.
 This web api handles operation on blog posts.
 * A user is either a regular user or an administrator.
 * When a regular user creates a post, this post should be reviewed. 
-* When an administrator creates a post, this post is auto-approuved.
-* Only approuved posts are visible to users.
+* When an administrator creates a post, this post is auto-approved.
+* Only approved posts are visible to users.
 * Only administrators can review posts.
 
 ## Guidelines
